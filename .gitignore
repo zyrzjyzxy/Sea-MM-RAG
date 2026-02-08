@@ -15,7 +15,7 @@ data/
 index_faiss/
 raw_pdfs/
 sea-rag-backend/raw_pdf_ingestion/
-sea-rag-backend/models--*/
+sea-rag-backend/models/
 sea-rag-frontend/vite.config copy.ts
 
 # 前端依赖

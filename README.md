@@ -72,12 +72,9 @@ cd sea-rag
 ```bash
 cd sea-rag-backend
 
-# 建议创建虚拟环境
-python -m venv venv
-# Windows:
-.\venv\Scripts\activate
-# Mac/Linux:
-source venv/bin/activate
+# 建议使用 Conda 创建虚拟环境 (推荐)
+conda create -n sea-rag python=3.11.14
+conda activate sea-rag
 
 # 安装依赖
 pip install -r requirements.txt
