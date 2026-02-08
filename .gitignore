@@ -1,0 +1,57 @@
+# 隐私环境变量
+.env
+.env.local
+.env.*.local
+
+# Python 虚拟环境与缓存
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 数据与索引文件（建议不要上传 50+ PDF 产生的巨大索引到 GitHub）
+data/
+index_faiss/
+raw_pdfs/
+sea-rag-backend/raw_pdf_ingestion/
+sea-rag-backend/models--*/
+sea-rag-frontend/vite.config copy.ts
+
+# 前端依赖
+node_modules/
+.next/
+dist/
+build/
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# IDE 与编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 二进制大文件与安装包
+*.exe
+*.dll
+*.so
+*.dylib
+*.xfdf
+*.zip
+*.7z
+*.rar
+*.tar.gz
+
+# 临时文件与脚本
+readme-fix.md
+fix_*.py
+temp/
+tmp/
+
+# 本地工具目录 (若包含二进制文件)
+tools/

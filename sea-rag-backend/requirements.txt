@@ -1,0 +1,22 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+python-multipart
+# RAG Core
+langchain
+langchain-community
+langchain-openai
+langchain-unstructured
+langchain-text-splitters
+# Vector Store & Embeddings
+faiss-cpu
+sentence-transformers
+# PDF & Image Processing
+pymupdf
+unstructured
+html2text
+pillow
+matplotlib
+numpy
